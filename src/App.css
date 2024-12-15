@@ -1,0 +1,145 @@
+
+#root {
+  padding: 2rem;
+  font-family: 'Georgia', serif;
+}
+
+.homeDiv h2 {
+  text-align: center;
+  color: #2c3e50;
+  
+  font-size: 2.5rem;
+  margin: 2rem 0;
+  padding: 1rem;
+  text-transform: upppercase;
+  letter-spacing: 2px;
+  border-bottom: 3px solid #e74c3c;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+}
+
+.store-icon {
+  margin: 1 15px;
+  padding: 5px;
+  font-size: 2rem;
+}
+
+/* main container spacing and layout */
+.container {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.bookCard img {
+  margin-bottom: 20px;
+}
+
+/* navbar styling */
+.navBar {
+  background-color: #f8f9fa;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+/* book card styling */
+.bookCard {
+  transition: transform 0.2s;
+  height: 100%;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.bookCard:hover {
+  transform: translateY(-5px);
+}
+
+/* grid layout for book list */
+.bookList {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+}
+
+/* lining up buttons + styling */
+.buttonDiv button {
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+/* cart specific styling */
+.cartStyle {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1rem;
+  background-color: #f8f9fa;
+}
+
+.cartStyle img {
+  width: 230px;  /* Smaller image in cart */
+  object-fit: cover;
+  margin: 1rem;
+}
+
+.cart {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.cart h2 {
+  color: #2c3e50;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+/* cart item styling */
+.cartStyle .card-body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.cartStyle .card-title {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+/* wishlist container styling */
+.wishlist {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+}
+
+/* wishlist book card styling */
+.wishlist .bookCard {
+  height: 100%;
+  background-color: #f8f9fa;
+  transition: transform 0.2s;
+}
+
+.wishlist .bookCard:hover {
+  transform: translateY(-5px);
+}
+
+/* wishlist image styling */
+.wishlist .bookCard img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 4px 4px 0 0;
+}
+
+/* wishlist content styling */
+.wishlist .card-body {
+  padding: 1.5rem;
+}

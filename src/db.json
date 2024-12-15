@@ -1,0 +1,104 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "title": "Dune",
+      "author": "Frank Herbert",
+      "price": 15.99,
+      "img": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1555447414i/44767458.jpg",
+      "isFavorite": false,
+      "genres": "Science Fiction",
+      "description": "A young nobleman becomes embroiled in a desert planet’s fight for control of the universe’s most valuable resource."
+    },
+    {
+      "id": 2,
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "price": 12.50,
+      "img": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1546071216i/5907.jpg",
+      "isFavorite": false,
+      "genres": "Fantasy",
+      "description": "Bilbo Baggins embarks on a perilous journey with dwarves to reclaim their homeland from a fearsome dragon."
+    },
+    {
+      "id": 3,
+      "title": "Neuromancer",
+      "author": "William Gibson",
+      "price": 14.99,
+      "img": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1554437249i/6088007.jpg",
+      "isFavorite": false,
+      "genres": "Science Fiction",
+      "description": "A washed-up hacker is hired by a mysterious employer to hack into an AI, setting off a journey through cyberspace and dystopia."
+    },
+    {
+      "id": 4,
+      "title": "It",
+      "author": "Stephen King",
+      "price": 18.00,
+      "img": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1334416842i/830502.jpg",
+      "isFavorite": false,
+      "genres": "Horror",
+      "description": "A group of children in a small town confront an ancient, shape-shifting evil that emerges from the sewers every 27 years."
+    },
+    {
+      "id": 5,
+      "title": "A Song of Ice and Fire: A Game of Thrones",
+      "author": "George R.R. Martin",
+      "price": 19.99,
+      "img": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1562726234i/13496.jpg",
+      "isFavorite": false,
+      "genres": "Fantasy",
+      "description": "In a kingdom of warring factions, noble families vie for power while an ancient threat looms beyond the Wall."
+    },
+    {
+      "id": 6,
+      "title": "The Left Hand of Darkness",
+      "author": "Ursula K. Le Guin",
+      "price": 13.75,
+      "img": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1488213612i/18423.jpg",
+      "isFavorite": false,
+      "genres": "Science Fiction",
+      "description": "On a planet where inhabitants can change gender, a political envoy navigates a treacherous journey toward diplomacy."
+    },
+    {
+      "id": 7,
+      "title": "Frankenstein",
+      "author": "Mary Shelley",
+      "price": 9.99,
+      "img": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1631088473i/35031085.jpg",
+      "isFavorite": false,
+      "genres": "Horror",
+      "description": "A scientist creates life, only to be horrified by the monster he has made, resulting in tragedy and moral dilemmas."
+    },
+    {
+      "id": 8,
+      "title": "The Martian",
+      "author": "Andy Weir",
+      "price": 16.95,
+      "img": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1413706054i/18007564.jpg",
+      "isFavorite": false,
+      "genres": "Science Fiction",
+      "description": "A stranded astronaut uses his ingenuity to survive on Mars, while Earth works to bring him home."
+    },
+    {
+      "id": 9,
+      "title": "Good Omens",
+      "author": "Neil Gaiman and Terry Pratchett",
+      "price": 17.49,
+      "img": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1615552073i/12067.jpg",
+      "isFavorite": false,
+      "genres": "Fantasy",
+      "description": "An angel and a demon team up to prevent the apocalypse in a quirky and humorous tale of good and evil."
+    },
+    {
+      "id": 10,
+      "title": "Dracula",
+      "author": "Bram Stoker",
+      "price": 10.99,
+      "img": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1387151694i/17245.jpg",
+      "isFavorite": false,
+      "genres": "Horror",
+      "description": "A young lawyer faces terror when he becomes entangled with a centuries-old vampire who seeks to spread his evil."
+    }
+  ]
+}
